@@ -64,16 +64,16 @@ def calculate():
 def handle_random_number(message):
     result = calculate()
     bot.send_message(message.chat.id, f'Ваше число: {result}')
-
-## Структура проекта :smirk:
 ```
-math_bot/
+
+## Структура проекта
+```
+RoadToDestiny/
 ├── main.py
 ├── README.md
 ├── config.py
 ├── calculator.py
 └── requirements.txt
-
 ```
 
 
